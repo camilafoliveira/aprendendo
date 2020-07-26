@@ -8,7 +8,11 @@ let userQuestion = prompt("O que precisa decidir? Ou mesmo adivinhar, pode dizer
 console.log(userQuestion)
 let randomNumber = Math.floor(Math.random() * 8);
 let eightBall = ""
-if (randomNumber === 0){
+if (userQuestion === "Sou lindo?"){
+    eightBall = 'Lindo, maravilhoso, puro sucesso!'
+}else if (userQuestion === "Sou linda?"){
+    eightBall = 'Linda, maravilhosa, puro sucesso!'
+}else if(randomNumber === 0){
     eightBall = 'Com certeza!'
  }else if (randomNumber === 1){
      eightBall = 'Definitivamente isso mesmo.'
