@@ -1,5 +1,5 @@
-var inicioContagem = 17; //A partir de qual número começar a verificar
-var finalContagem = 17; //Até qual número verificar (inclusive ele)
+var inicioContagem = 0; //A partir de qual número começar a verificar
+var finalContagem = 30; //Até qual número verificar (inclusive ele)
 var primos = []; //Array que reunirá a lista de números primos
 
 /* O primeiro for vai pegar números (possivelPrimo) dentro do intervalo definido nas variáveis acima; 
