@@ -1,5 +1,7 @@
+// Exercício do Bootcamp de Programador de Software Iniciante - Verificação e soma de números primos
+
 var inicioContagem = 0; //A partir de qual número começar a verificar
-var finalContagem = 30; //Até qual número verificar (inclusive ele)
+var finalContagem = 30; //Até qual número verificar (inclusive ele). Se desejar verificar apenas um número, repetir esse número na variável inicioContagem e finalContagem
 var primos = []; //Array que reunirá a lista de números primos
 
 /* O primeiro for vai pegar números (possivelPrimo) dentro do intervalo definido nas variáveis acima; 
